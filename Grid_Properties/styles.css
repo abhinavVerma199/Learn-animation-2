@@ -1,0 +1,42 @@
+.container{
+    border:1px solid brown;
+    background-color: yellow;
+    height: 700px;
+    width: 600px;
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+grid-gap:10px;
+
+/* justifiy-content: start;
+justifiy-content: end;
+justifiy-content: center;
+justifiy-content: space-between;
+justifiy-content: space-around;
+justifiy-content: space-evenly; */
+
+/* 
+align-items: start;
+align-items: end;
+align-items: baseline;
+align-items: stretch; */
+
+/* align-content: space-around; */
+place-content: center;
+align-content: center;
+
+place-items: center;
+
+
+}
+
+.box{
+    
+}
+#box1{
+    justify-self: start;
+    justify-self: end;
+    justify-self: center;
+}
+    

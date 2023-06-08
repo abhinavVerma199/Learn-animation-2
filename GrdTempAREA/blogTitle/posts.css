@@ -1,0 +1,10 @@
+.container{
+    border:1px solid black;
+    background-color: white;
+    height: 700px;
+    width: 504px;
+    display:grid;
+
+}
+#box{
+    color: blue;}

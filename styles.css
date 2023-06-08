@@ -1,0 +1,54 @@
+.container{
+    height:700px;
+    width: 600px;
+    border:1px solid brown;
+    background-color: yellow;
+
+    display:grid;
+
+    grid-template-columns: 100px 100px 100px ;
+    grid-template-rows: 100px 100px;
+
+    /* grid-gap:10px; */
+
+
+
+    /* justify-content: space-evenly; */
+    /* align-content: flex-start; */
+ /* justify-items:legacy; */
+ /* align-items: baseline; */
+ /* justify-self:flex-start; */
+ /* align-self:center; */
+
+ /* justify-content: center;
+ align-content: center; */
+
+ /* place-content: center; */
+
+ /* justify-items: center;
+ align-items: center; */
+
+ place-items:center;
+
+
+}
+
+
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+    /* height:100px;
+    width: 100px; */
+
+}
+
+#box1{
+    /* justify-self: start;
+    justify-self: end;
+    justify-self: center; */
+
+    align-self:center;
+}
+
+
+
